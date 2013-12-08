@@ -1,0 +1,36 @@
+{
+	"name": "BetterWatchlist",
+	"title": "Better Watchlist",
+	"description": "A trademe application for better, customised watchlists",
+	"version": "1.0.0",
+	"homepage": "https://github.com/rjmackay/better-watchlist",
+	"author": {
+		"name": "Robbie Mackay",
+		"email": "rm@robbiemackay.com",
+		"url": "http://trademe.robbiemackay.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:rjmackay/better-watchlist.git"
+	},
+	"bugs": {
+		"url": "https://github.com/rjmackay/better-watchlist/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/rjmackay/better-watchlist/blob/master/LICENSE-MIT"
+		}
+	],
+	"dependencies": {
+		"express": "3.x"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-contrib-jshint": "~0.6.0",
+		"grunt-contrib-uglify": "~0.2.2",
+		"grunt-contrib-requirejs": "~0.4.1",
+		"grunt-contrib-watch": "~0.4.4"
+	},
+	"main": "./server"
+}
